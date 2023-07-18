@@ -25,7 +25,7 @@
 .primary-btn{
      border-radius: 2.5rem;
      background-color: var(--primary-btn-background-color);
-     padding: 10px 25px;   
+     padding: 15px 30px;   
      border: 0;  
 }
 .primary-description{
@@ -186,7 +186,48 @@ main{
 .item-box .prise, .rating-icon{
      margin: 10px 0;
 }
-
-
+.see-btn{
+     color: var(--primary-btn-background-color);
+     font-size: 1rem;
+     margin-left: 88%;
+     margin-top: 5%;
+     background-color: #fff;
+     border: none;
+     cursor: pointer;
+}
 
 /* popular section end form here */
+/* feature section start form here */
+.feature-container{
+     margin: 0 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 5.6rem;
+}
+.feature-img{
+     width: 40%;
+}
+.feature-img img{
+      width: 100%;
+      border-radius: 10px;
+}
+.feature-content{
+     width: 50%;
+}
+.feature-name-title{
+     color: #0A0826;
+     font-size: 2.3rem;
+     font-weight: 700;
+     line-height: 60px;     
+}
+.feature-content .primary-description{
+     font-weight: 600;
+     margin-bottom: 20px;
+     margin-top: 20px;
+     
+}
+.feature-content .primary-btn{
+     border-radius: 0;
+}
+/* feature section end form here */
