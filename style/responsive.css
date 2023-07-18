@@ -43,6 +43,13 @@
      .popular-containe-item{
           padding-left: 0;
      }
+     .popular-containe-item{
+          grid-gap: 6.8rem;
+     }
+     .item-box{
+          width: 100%;
+
+     }
      .see-btn{
           margin-left: 40%;
           margin-top: 10%;
