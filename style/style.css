@@ -231,3 +231,36 @@ main{
      border-radius: 0;
 }
 /* feature section end form here */
+/* footer style start  from here */
+.footer-container{
+     width: 100%;
+     height: 239px;     
+     background-color:  #0A0826;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+}
+.footer-container .primary-title, .primary-description{
+     margin-bottom: 10px;
+}
+
+.icon{
+    position: relative;
+}
+.icon-center{
+     font-size: 40px;
+     position: absolute;
+     left: 10px;
+     top: 10px;
+     
+}
+.footer-icon .icon{
+     display: inline-block;
+     width: 60px;
+     height: 60px;
+     border-radius: 50%;
+     background-color: #3A3A3A;
+}
+
+/* footer style end from here */
