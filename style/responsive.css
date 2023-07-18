@@ -1,0 +1,45 @@
+/* mobile devise media query */
+
+@media screen and (max-width:576px){
+     
+     nav,
+     nav > ul,
+     .sponsor-item-content
+    
+     {
+          flex-direction: column;
+     }
+     .header-main-container{
+          flex-direction: column-reverse;
+     }
+     
+     .popular-containe-item{
+          grid-template-columns: 1fr;
+     }
+
+     header {
+          margin: 5.6rem 1.6rem;
+     }
+     nav >ul {
+          text-align: center;
+     }
+
+     nav ul li{
+          margin-top: 20px;
+          margin-bottom: 10px;
+     }
+     .banner{
+          width: 100%;
+          height: 270px;
+     }
+     main{
+          margin: 0;
+     }
+     .sponsor-item-content img{
+          width: 50%;
+          margin-bottom: 20px;
+     }
+     .popular-containe-item{
+          padding-left: 0;
+     }
+}
