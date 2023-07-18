@@ -11,7 +11,7 @@
      margin: 0;
 }
 :root{
-     --primary-btn-color:#E02C6D;
+     --primary-btn-background-color:#E02C6D;
      --btn-font-color: #FFF;
      --secondary-color:  #787885;
      --font-color: #3A3A3A; 
@@ -19,14 +19,36 @@
 /* shared style here */
 .primary-title{
      color: var(--font-color);
-     font-size: 1.6rem;
+     font-size: 1.8rem;
      font-weight: 700;     
+}
+.primary-btn{
+     border-radius: 2.5rem;
+     background-color: var(--primary-btn-background-color);
+     padding: 10px 25px;   
+     border: 0;  
+}
+.primary-description{
+     color: var(--secondary-color);
+     font-size: 0.9rem;
+     font-weight: 400;
+     letter-spacing: 0.252px;     
 }
 
 /* shared style  close here */
+/* bar icon */
+.fa-bars{
+     display: none;
+}
+
 /* header style start form here */
 header{
      margin: 5.6rem 7.6rem;
+}
+.logo-title{
+     color: var(--font-color);
+     font-size: 1.6rem;
+     font-weight: 700;     
 }
 nav{
      display: flex;
@@ -44,4 +66,127 @@ nav li a{
      color: var(--font-color);
 }
 
+.header-main-container{
+     margin-top: 3.1rem;
+     margin-bottom: 6.25rem;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 8.1rem;
+}
+
+/* banner style start form here */
+.header-container{
+     /* margin: 0 3rem; */
+}
+
+.banner img{
+     width: 100%;
+}
+.banner{
+     width: 540px;
+     height: 550px;
+     background-image: url(../images/Circle\ design.svg);
+     background-repeat: no-repeat;
+     background-size: 100%;
+}
+.header-title{
+     color: var(--font-color);
+     font-size: 3.25rem;
+     font-weight: 700;
+     line-height: 70px;
+     margin-bottom: 1rem;     
+}
+.heading-description{
+     font-size: 1rem;
+     font-style: normal;
+     font-weight: 600;
+     margin-bottom: 1rem; 
+     color: var(--font-color);   
+}
+
 /* header style end form here */
+/* main section start form here */
+main{
+     margin: 6.25rem 10.1rem;
+}
+/* sponsor section style form here */
+    .sponsor-container{
+     width: 100%;
+     margin-bottom: 7rem;
+
+    } 
+    .sponsor-item-content{
+     background-color: #FFF;
+     box-shadow: 1px 1px 1px 1px #e8e6e6b6;
+     padding: 40px 0px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+    }
+  .sponsor-item-content img{
+     position: static;
+     width: 8%;
+     height: 5%;
+
+  }  
+/* sponsor section style form here */
+/* popular section start form here */
+
+/* .popular-container{
+     background-color: var(--secondary-color);
+     
+} */
+.popular-container{
+
+     max-width: 1500px;
+     margin: 20px auto;
+     
+}
+.heading-title{
+     color: var(--font-color);
+     font-size: 1.8rem;
+     font-weight: 700;  
+     line-height: 50px; 
+     text-align: center;
+     margin-bottom: 50px;
+}
+.popular-containe-item{
+     width: 100%;
+     padding-left: 8%;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-gap: 2.8rem;
+     /* justify-content: space-between;
+     align-content: center; */
+
+}
+.item-box{
+     width: 329px;
+     height: 476px;
+     border-radius: 5px;
+     background: #FFF;
+     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);     
+     padding: 1rem;
+     margin: 0;
+}
+.item-box img{
+     width: 100%;
+     border-radius: 5px;
+     
+}
+.rating-icon span img{
+     width: 20px;
+     height: 20px;
+}
+.item-box .primary-title{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.item-box .prise, .rating-icon{
+     margin: 10px 0;
+}
+
+
+
+/* popular section end form here */
